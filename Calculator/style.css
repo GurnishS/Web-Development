@@ -8,6 +8,10 @@ html {
   padding: 0;
 }
 
+.text{
+  padding:50px;
+}
+
 .main-body {
   display: flex;
   justify-content: center;
@@ -19,8 +23,13 @@ html {
   font-size: 16px;
   margin: 3px 3px;
   width: 64px;
+  cursor: pointer;
   border: 2px solid black;
   border-radius: 12px;
+}
+
+.Button:active{
+  background-color:white;
 }
 
 .container {
@@ -34,4 +43,8 @@ html {
   height: 60px;
   margin: 10px;
   font-size: 22px;
+}
+
+.double{
+  width:128px;
 }
